@@ -1,0 +1,23 @@
+﻿<Window x:Class="XO.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XO"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="LefU" Content="" Margin="191,71,483,281" Click="LefU_Click" IsEnabled="False"/>
+        <Button x:Name="LefM" Margin="191,158,483,194" Click="LefU_Click" IsEnabled="False"/>
+        <Button x:Name="LefB" Margin="191,245,483,107" Click="LefU_Click" IsEnabled="False"/>
+        <Button x:Name="MidU" Margin="337,71,337,282" Click="LefU_Click" IsEnabled="False"/>
+        <Button x:Name="MidM" Margin="337,159,337,194" Click="LefU_Click" IsEnabled="False"/>
+        <Button x:Name="MidB" Margin="337,246,337,107" Click="LefU_Click" IsEnabled="False"/>
+        <Button x:Name="RigU" Margin="485,71,189,282" Click="LefU_Click" IsEnabled="False"/>
+        <Button x:Name="RigM" Margin="485,159,189,194" Click="LefU_Click" IsEnabled="False"/>
+        <Button x:Name="RigB" Margin="485,246,189,107" Click="LefU_Click" IsEnabled="False"/>
+        <Button x:Name="StartGame" Content="Начать игру" Margin="228,375,228,10" Click="StartGame_Click"/>
+        <TextBlock x:Name="Result" TextWrapping="Wrap" Margin="337,10,337,382"/>
+
+    </Grid>
+</Window>
